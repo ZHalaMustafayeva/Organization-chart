@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="tree">
+                    <ul>
+                        <li> <a href="#"><span>Categories</span></a>
+                            <ul>
+                                <li ><a href="#" class="category"><span >Category 1</span></a>
+                                    <i onclick="add(this)" class="fas fa-plus-circle"></i>
+                                    <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                    <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                    <ul>
+                                        <li> <a href="#" class="sub-category"><span>Sub Category 1</span></a>
+                                            <i onclick="add(this)" class="fas fa-plus-circle"></i>
+                                            <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                            <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                            <ul>
+                                                <li> <a href="#" class="sub-category"><span>Item 1</span></a>
+                                                    <i onclick="add(this)" class="fas fa-plus-circle"></i>
+                                                    <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                                    <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                                </li>
+                                                <li> <a href="#" class="sub-category"><span>Item 2</span></a>
+                                                    <i onclick="add(this)" class="fas fa-plus-circle"></i>
+                                                    <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                                    <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li> <a href="#" class="sub-category"><span> Sub Category 2</span></a>
+                                            <i onclick="add(this)" class="fas fa-plus-circle"></i>
+                                            <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                            <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li ><a href="#" class="category"><span >Category 2</span></a>
+                                    <i onClick="add(this)" class="fas fa-plus-circle"></i>
+                                    <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                    <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                    <ul>
+                                        <li> <a href="#" class="sub-category"><span>Sub Category 3 </span></a>
+                                            <i onClick="add(this)" class="fas fa-plus-circle"></i>
+                                            <i onclick="edit(this)" class="fas fa-pencil-alt"></i>
+                                            <i onclick="remove(this)" class="fas fa-times-circle"></i>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/187d954b3d.js" crossorigin="anonymous"></script>
+        
+    </body>
+
+</html>
